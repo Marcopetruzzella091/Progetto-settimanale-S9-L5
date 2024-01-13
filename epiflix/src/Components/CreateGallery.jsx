@@ -90,10 +90,10 @@ export default class CreateGallery extends Component {
   render() {
     return (
       <>
-      <div>
+      <div className='mt-5'>
         <h1>Harry Potter Saga</h1>
         <Row>
-          {this.state.Saga1.map((e) => (<Col className='col-md-2 col-xs-4'>
+          {this.state.Saga1.map((e) => (<Col className='col-md-2 col-xs-4 mt-3'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={e.Poster} />
 
@@ -102,10 +102,10 @@ export default class CreateGallery extends Component {
           </Col>))}
 
         </Row>
-      </div><div>
+      </div><div className='mt-5'>
         <h1>Dragon ball Saga</h1>
         <Row>
-          {this.state.Saga2.map((e) => (<Col className='col-md-2 col-xs-4'>
+          {this.state.Saga2.map((e) => (<Col className='col-md-2 col-xs-4 mt-3'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={e.Poster} />
 
@@ -114,10 +114,10 @@ export default class CreateGallery extends Component {
           </Col>))}
 
         </Row>
-      </div><div>
+      </div><div className='mt-5'>
         <h1>Naruto Saga</h1>
         <Row>
-          {this.state.Saga3.map((e) => (<Col className='col-md-2 col-xs-4'>
+          {this.state.Saga3.map((e) => (<Col className='col-md-2 col-xs-4 mt-3'>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={e.Poster} />
 

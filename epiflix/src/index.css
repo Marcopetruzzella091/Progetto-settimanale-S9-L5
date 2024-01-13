@@ -90,3 +90,5 @@ footer {
 
  a {color: #C7C7C7 !important;} 
  a:hover{color: #ffffff !important; }
+
+ #dropdown-basic-button{background-color: transparent; border: white solid 1px;}

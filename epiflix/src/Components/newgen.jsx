@@ -16,7 +16,7 @@ function ContainerExample() {
         <Col className=''><div class="d-flex justify-content-between">
           <div className="d-flex">
             <h2 className="mt-2 mb-2">TV Shows</h2>
-            <DropdownButton className="d-flex align-items-center" id="dropdown-basic-button" title="Generes">
+            <DropdownButton className="d-flex align-items-center btn " id="dropdown-basic-button" title="Generes">
               <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
               <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
               <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
